@@ -1,10 +1,10 @@
 #include<stdio.h>
-#define L 9
 int main(){
-    int i,n=1;
-    while(n<=1000){
-        printf("%d\n",n);
-        n *= 2;
+    int n;
+    scanf("%d",&n);
+    while(n!=0){
+        printf("2倍の値:%d\n",n*2);
+        scanf("%d",&n);
     }
     return 0;
 }
