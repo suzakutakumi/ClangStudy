@@ -1,10 +1,12 @@
 #include<stdio.h>
 int main(){
-    int n;
-    scanf("%d",&n);
-    while(n!=0){
-        printf("2倍の値:%d\n",n*2);
-        scanf("%d",&n);
+    int sum=0;
+    int i=1;
+    while(sum<=100){
+        sum+=i;
+        printf("+%d\n",i);
+        i++;
     }
+    printf("100を超えた値:%d\n",sum);
     return 0;
 }

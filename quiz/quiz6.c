@@ -1,13 +1,14 @@
 #include<stdio.h>
 int main(){
-    int sum=0,n;
+    int sum=0,n=1;
     while(1){
-        scanf("%d",&n);
         sum+=n;
-        if(sum>=100){
+        if(sum>100){
             break;
         }
-        printf("sum:%d\n",sum);
+        n++;
     }
+    printf("合計値:%d\n",sum);
+    printf("最後の加算値:%d\n",n);
     return 0;
 }

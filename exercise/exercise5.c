@@ -1,5 +1,5 @@
 #include<stdio.h>
-#define L 1000
+const int L=1000;
 int main(){
     int i,n=1;
     while(n<=L){

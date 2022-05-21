@@ -1,5 +1,5 @@
 #include<stdio.h>
-#define L 9
+const int L=9;
 int main(){
     int i;
     for(i=1;i<=L;i++){
